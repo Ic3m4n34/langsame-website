@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/nico-meyer-fullstack-developer.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deine Website muss nicht langsam sein!</title>
+    <meta name="description" content="Deine Website muss nicht langsam sein! Ich bin Nico Meyer und mache deine Website schnell! Jetzt kostenlos beraten lassen!">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "kostenlose-website-beratung", {origin:"https://cal.com"});
+
+  Cal.ns["kostenlose-website-beratung"]("inline", {
+    elementOrSelector:"#my-cal-inline",
+    config: {"layout":"month_view","theme":"light"},
+    calLink: "nicomeyer/kostenlose-website-beratung",
+  });
+
+  Cal.ns["kostenlose-website-beratung"]("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#d21e1e"},"dark":{"cal-brand":"#d21e1e"}},"hideEventTypeDetails":false,"layout":"month_view"});
+  </script>
+  </body>
+</html>
